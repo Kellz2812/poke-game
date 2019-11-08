@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background: lightskyblue;
+    margin: 0 auto; 
+}
+
+.player-display {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.player1-card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.player2-card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+button {
+    height: 40px;
+    padding: 0.5rem;
+    background-color: rgb(148, 4, 4);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(148, 4, 4);
+    box-shadow: 5px 5px 5px  rgb(66, 2, 2) ;
+    border: none;
+}
+
+.backButton {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(66, 2, 2) ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
