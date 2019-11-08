@@ -16,23 +16,16 @@ export class Pokegame extends Component {
       };
 
       generatePlayer1 = () => {
-        //   first it was randomly selected:
-            let rand = Math.floor(Math.random()*pokemonList.length);
-            this.setState({ player1: pokemonList[rand]});
-        //updated to loop through all pokemon so the user can select pokemon:
-        // let i = this.state.index < pokemonList.length ? this.state.index += 1 : 0;
-        // this.setState({index: i});
+         let i = this.state.index < pokemonList.length ? this.state.index += 1 : 0;
+        this.setState({index: i});
         pokemonList.slice(0, this.state.index).map(v => {
             this.setState({player1: v});
         });
       };
 
       generatePlayer2 = () => {
-        let rand = Math.floor(Math.random()*pokemonList.length);
-            this.setState({ player2: pokemonList[rand]});
-            
-            // let i = this.state.index < pokemonList.length ? this.state.index += 1 : 0;
-        // this.setState({index: i});
+         let i = this.state.index < pokemonList.length ? this.state.index += 1 : 0;
+        this.setState({index: i});
         pokemonList.slice(0, this.state.index).map(v => {
             this.setState({player2: v});
         });
