@@ -15,15 +15,16 @@ import tauros from "./images/tauros.png";
 import machamp from "./images/machamp.png";
 
  let pokemonList = [
-                {   id:     "mimikyu",
-                name:    "Mimikyu",
-                type:   "ghost",
-                speed:  6,
-                strength:   5, 
-                weakness: "ghost",
-                pokeDexNo: "0", 
-                pokeIMG: mimikyu
-            },
+                {   id:     "bulbasor",
+                name:    "Bulbasor",
+                type:   "grass",
+                speed:  3,
+                strength:     3,
+                weakness: "fire",
+                pokeDexNo: "11"  ,
+                pokeIMG: bulbasor         
+                },
+                
 
             {   id: "charmander",
                 name: "Charmander",
@@ -34,7 +35,25 @@ import machamp from "./images/machamp.png";
                 pokeDexNo: "1",
                 pokeIMG: charmander             
             },
-        
+            
+            {   id:     "pikachu",
+                name:    "Pikachu",
+                type:   "electric",
+                speed:  5,
+                strength:   3,
+                weakness: "ground",
+                pokeDexNo: "4",
+                pokeIMG: pikachu               
+            },
+            {   id:     "blastoise",
+            name:    "Blastoise",
+            type:   "water",
+            speed:  4 ,
+            strength:     4,
+            weakness: "electric",
+            pokeDexNo: "12",
+            pokeIMG: blastoise    
+        },
             {   id: "treecko",
                 name: "Treecko",
                 type:   "grass",
@@ -55,15 +74,6 @@ import machamp from "./images/machamp.png";
                 pokeIMG: snorlax             
             },
     
-            {   id:     "pikachu",
-                name:    "Pikachu",
-                type:   "electric",
-                speed:  5,
-                strength:   3,
-                weakness: "ground",
-                pokeDexNo: "4",
-                pokeIMG: pikachu               
-            },
             {   id:     "mew",
             name:    "Mew",
             type:   "psychic",
@@ -91,6 +101,15 @@ import machamp from "./images/machamp.png";
             pokeDexNo: "7" ,
             pokeIMG: persian           
         },
+        {   id:     "mimikyu",
+                name:    "Mimikyu",
+                type:   "ghost",
+                speed:  6,
+                strength:   5, 
+                weakness: "ghost",
+                pokeDexNo: "0", 
+                pokeIMG: mimikyu
+            },
         {   id:     "litten",
             name:    "Litten",
             type:   "fire",
@@ -118,24 +137,8 @@ import machamp from "./images/machamp.png";
             pokeDexNo: "10" ,
             pokeIMG: koffing           
         },
-        {   id:     "bulbasor",
-            name:    "Bulbasor",
-            type:   "grass",
-            speed:  3,
-            strength:     3,
-            weakness: "fire",
-            pokeDexNo: "11"  ,
-            pokeIMG: bulbasor         
-        },
-        {   id:     "blastoise",
-            name:    "Blastoise",
-            type:   "water",
-            speed:  4 ,
-            strength:     4,
-            weakness: "electric",
-            pokeDexNo: "12",
-            pokeIMG: blastoise    
-        },
+        
+        
     
         {
             id:     "tauros",
