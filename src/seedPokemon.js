@@ -1,3 +1,18 @@
+import mimikyu from "./images/mimikyu.png";
+import charmander from "./images/charmander.png";
+import treecko from "./images/treecko.png";
+import snorlax from "./images/snorlax.png";
+import pikachu from "./images/pikachu.png";
+import mew from "./images/mew.png";
+import gengar from "./images/gengar.png";
+import persian from "./images/persian.png";
+import litten from "./images/litten.png";
+import ekans from "./images/ekans.png";
+import koffing from "./images/koffing.png";
+import bulbasor from "./images/bulbasor.png";
+import blastoise from "./images/blastoise.png";
+import tauros from "./images/tauros.png";
+import machamp from "./images/machamp.png";
 
  let pokemonList = [
                 {   id:     "mimikyu",
@@ -6,7 +21,8 @@
                 speed:  6,
                 strength:   5, 
                 weakness: "ghost",
-                url: "./images/mimikyu.png" 
+                pokeDexNo: "0", 
+                pokeIMG: mimikyu
             },
 
             {   id: "charmander",
@@ -15,7 +31,8 @@
                 speed:  4,
                 strength:   3, 
                 weakness: "water",
-                url: "./images/charmander.png"            
+                pokeDexNo: "1",
+                pokeIMG: charmander             
             },
         
             {   id: "treecko",
@@ -24,7 +41,8 @@
                 speed:  4,
                 strength:   2,
                 weakness: "fire",
-                url: "./images/treecko.png"              
+                pokeDexNo: "2",
+                pokeIMG: treecko             
             },
 
             {   id:     "snorlax",
@@ -33,7 +51,8 @@
                 speed:  2,
                 strength:   6,
                 weakness: "fighting",
-                url: "./images/snorlax.png"             
+                pokeDexNo: "3" ,
+                pokeIMG: snorlax             
             },
     
             {   id:     "pikachu",
@@ -42,7 +61,8 @@
                 speed:  5,
                 strength:   3,
                 weakness: "ground",
-                url: "./images/pikachu.png"              
+                pokeDexNo: "4",
+                pokeIMG: pikachu               
             },
             {   id:     "mew",
             name:    "Mew",
@@ -50,7 +70,8 @@
             speed:  5   ,
             strength:   5,
             weakness: "ghost",
-            url: "./images/mew.png"               
+            pokeDexNo: "5",
+            pokeIMG: mew                
         },
         {   id:     "gengar",
             name:    "Gengar",
@@ -58,7 +79,8 @@
             speed:  6   ,
             strength:   3 ,   
             weakness: "psychic",
-            url: "./images/gengar.png"          
+            pokeDexNo: "6",
+            pokeIMG: gengar             
         },
         {   id:     "persian",
             name:    "Persian",
@@ -66,7 +88,8 @@
             speed:  6  ,
             strength:     4,   
             weakness: "fighting",
-            url: "./images/persian.png"           
+            pokeDexNo: "7" ,
+            pokeIMG: persian           
         },
         {   id:     "litten",
             name:    "Litten",
@@ -74,7 +97,8 @@
             speed:  5  ,
             strength:     4,
             weakness: "water",
-            url: "./images/litten.png"          
+            pokeDexNo: "8" ,
+            pokeIMG: litten           
         },
         {   id:     "ekans",
             name:    "Ekans",
@@ -82,7 +106,8 @@
             speed:  3  ,
             strength:    3,
             weakness: "psychic",
-            url: "./images/ekans.png"          
+            pokeDexNo: "9"  ,
+            pokeIMG: ekans          
         },
         {   id:     "koffing",
             name:    "Koffing",
@@ -90,7 +115,8 @@
             speed:  2 ,
             strength:     3,
             weakness: "psychic",
-            url: "./images/koffing.png"          
+            pokeDexNo: "10" ,
+            pokeIMG: koffing           
         },
         {   id:     "bulbasor",
             name:    "Bulbasor",
@@ -98,7 +124,8 @@
             speed:  3,
             strength:     3,
             weakness: "fire",
-            url: "./images/bulbasor.png"         
+            pokeDexNo: "11"  ,
+            pokeIMG: bulbasor         
         },
         {   id:     "blastoise",
             name:    "Blastoise",
@@ -106,7 +133,8 @@
             speed:  4 ,
             strength:     4,
             weakness: "electric",
-            url: "./images/blastoise"  
+            pokeDexNo: "12",
+            pokeIMG: blastoise    
         },
     
         {
@@ -116,7 +144,8 @@
             speed:     6,
             strength:  5,
             weakness: "fighting",
-            url: "./images/tauros.png"   
+            pokeDexNo: "13"  ,
+            pokeIMG: tauros   
         },
         {
             id:     "machamp",
@@ -125,11 +154,10 @@
             speed:     3,
             strength:  7,
             weakness: "psychic" ,
-            url: "./images/machamp.png"  
+            pokeDexNo: "14"  ,
+            pokeIMG: machamp
         },
         ]
-        
-    
-   
+            
                 
 export default pokemonList;
