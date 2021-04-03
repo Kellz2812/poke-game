@@ -22,40 +22,49 @@ export default function Pokegame() {
         if (index >= 0 && index < pokemonList.length) {
             setIndex(index + 1);
             setPlayer1(pokemonList[index])
+            console.log(`Player 1 is generating - ${index}`)
         }
         else {
             setIndex(0);
+            console.log(`Player 1 is generating - else - ${index}`)
         }
     };
 
     const generatePlayer2 = () => {
         if (index >= 0 && index < pokemonList.length) {
             setIndex(index + 1);
-            setPlayer2(pokemonList[index])
+            setPlayer2(pokemonList[index]);
+            console.log(`Player 2 is generating - ${index}`)
+            
         }
         else {
             setIndex(0);
+            console.log(`Player 2 is generating - else - ${index}`)
         }
     };
 
     const previousPokemonPlayer1 = () => {
-        if (index >= 0 && index < pokemonList.length) {
-            setIndex(index - 1);
-            setPlayer1(pokemonList[index])
+        if (index >= 0 && index < pokemonList.length ) {
+            setIndex(index -1);
+            setPlayer1(pokemonList[index]);
+            console.log(`Previous Player 1 is generating - ${index}`)
         }
         else {
-            setIndex(pokemonList.length -1);
+            setIndex(0);
+            console.log(`Previous Player 1 is generating - else - ${index}`)
         }
     }
 
     const previousPokemonPlayer2 = () => {
 
         if (index >= 0 && index < pokemonList.length) {
-            setIndex(index - 1);
-            setPlayer2(pokemonList[index])
+            setIndex(index -1);
+            setPlayer2(pokemonList[index]);
+            console.log(`Previous Player 2 is generating - ${index}`)
         }
         else {
-            setIndex(pokemonList.length -1);
+            setIndex(0);
+            console.log(`Previous Player 2 is generating - else ${index}`)
         }
     }
 
