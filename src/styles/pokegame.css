@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background: lightskyblue;
+    background: url(../images/meadow.jpeg);
+    background-size: cover;
     margin: 0 auto; 
 }
 
@@ -13,38 +14,36 @@ body {
 .player1-card {
     height: 300px;
     width: 200px;
-    border: 2px solid white;
     border-radius: 10px;
     margin: 0.5rem;
+    background-color: transparent;
+    color: black;
 }
 
 .player2-card {
     height: 300px;
     width: 200px;
-    border: 2px solid white;
     border-radius: 10px;
     margin: 0.5rem;
+    background-color: transparent;
+    color: black;
 }
 
 button {
     height: 40px;
     padding: 0.5rem;
-    background-color: rgb(148, 4, 4);
-    color: white;
-    border-radius: 10px;
+    background-color: transparent;
     border: none;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgb(235, 247, 126), 0 0 1em rgb(247, 247, 248), 0 0 0.2em rgb(249, 249, 253);
+
 }
-button:hover {
-    background-color: rgb(148, 4, 4);
-    box-shadow: 5px 5px 5px  rgb(66, 2, 2) ;
-    border: none;
-}
+
 
 .backButton {
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: rgb(66, 2, 2) ;
-    color: white;
-    border-radius: 10px;
     border: none;
 }
+
